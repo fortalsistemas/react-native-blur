@@ -2,10 +2,13 @@ import React, { forwardRef } from 'react';
 import {
   requireNativeComponent,
   StyleSheet,
-  ViewProps,
-  ViewStyle,
   View,
 } from 'react-native';
+
+import {
+  ViewProps,
+  ViewStyle,
+} from 'deprecated-react-native-prop-types'
 
 type BlurType =
   | 'dark'

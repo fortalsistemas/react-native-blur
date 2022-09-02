@@ -4,9 +4,12 @@ import {
   requireNativeComponent,
   DeviceEventEmitter,
   StyleSheet,
+} from 'react-native';
+
+import {
   ViewProps,
   ViewStyle,
-} from 'react-native';
+} from 'deprecated-react-native-prop-types'
 
 const OVERLAY_COLORS = {
   light: 'rgba(255, 255, 255, 0.2)',
